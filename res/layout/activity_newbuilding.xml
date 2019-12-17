@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <EditText
+        android:id="@+id/etBuildingName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Touch to set Building Name"
+        android:ems="10" >
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/etBuildingAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Touch to set Building Address"
+        android:ems="10" />
+
+    <EditText
+        android:id="@+id/etBuildingNote"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:lines="4"
+        android:gravity="top|left"
+        android:hint="Touch to set Building Note"
+        android:inputType="textMultiLine" />
+
+    <EditText
+        android:id="@+id/etBuildingCusid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Touch to set Customer"
+        android:ems="10" />
+
+    <Button
+        android:id="@+id/btnBuildingAdd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add Building" />
+
+</LinearLayout>

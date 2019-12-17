@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_background"
+    android:orientation="vertical" >
+
+      <TextView
+          android:id="@+id/textView10"
+          android:layout_width="fill_parent"
+          android:layout_height="wrap_content"
+          android:layout_alignParentRight="true"
+          android:layout_alignParentTop="true"
+          android:layout_marginLeft="0dp"
+          android:layout_marginRight="8dp"
+          android:layout_marginTop="40dp"
+          android:gravity="center"
+          android:text="@string/splash_screenname"
+          android:textColor="#ffffff"
+          android:textSize="30sp" />
+
+    <EditText
+        android:id="@+id/userid"
+        android:layout_width="fill_parent"
+        android:layout_height="35dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="220dp"
+        android:background="@drawable/rounded_edittext"
+        android:ems="10"
+        android:hint="UserId" >
+    </EditText>
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="fill_parent"
+        android:layout_height="35dp"
+        android:layout_alignLeft="@+id/userid"
+        android:layout_below="@+id/userid"
+        android:layout_marginRight="25dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/rounded_edittext"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:hint="Password" />
+
+    <Button
+        android:id="@+id/login"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:layout_below="@+id/password"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="22dp"
+        android:background="#0B0B61"
+        android:text="Log In"
+        android:textColor="#FFFFFF"
+        android:textSize="16dip"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/serverName"
+        android:layout_width="fill_parent"
+        android:layout_height="35dp"
+        android:layout_above="@+id/serviceName"
+        android:layout_alignLeft="@+id/serviceName"
+        android:layout_marginBottom="18dp"
+        android:layout_marginRight="25dp"
+        android:background="@drawable/rounded_edittext"
+        android:ems="10"
+        android:hint="Server name (Ex-10.1.15.12) " >
+         <requestFocus />
+    </EditText>
+    
+    <EditText
+        android:id="@+id/serviceName"
+        android:layout_width="fill_parent"
+        android:layout_height="35dp"
+        android:layout_alignBottom="@+id/userid"
+        android:layout_alignLeft="@+id/userid"
+        android:layout_marginBottom="56dp"
+        android:layout_marginRight="25dp"
+        android:background="@drawable/rounded_edittext"
+        android:ems="10"
+        android:hint="Service name (Ex-pksfSvc)" />
+
+</RelativeLayout>

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/scrollView1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+		   <EditText
+		       android:id="@+id/etTaskHeading"
+		       android:layout_width="match_parent"
+		       android:layout_height="wrap_content"
+		       android:layout_marginTop="16dp"
+		       android:ems="10"
+		       android:hint="@string/hnt_taskheading" >
+		
+		       <requestFocus />
+		   </EditText>
+
+           <Spinner
+		        android:id="@+id/spnBuilding"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"/>
+		   <Spinner
+		        android:id="@+id/spnTenant"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:layout_marginTop="14dp" />
+
+           <EditText
+		        android:id="@+id/etTaskNote"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:ems="10"
+		        android:gravity="top|left"
+		        android:hint="@string/hnt_task_Note"
+		        android:inputType="textMultiLine"
+		        android:lines="4" />
+		        
+          <Button
+                android:id="@+id/btnTaskAdd"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/btn_task_add" />
+            
+ 	     <Button
+		        android:id="@+id/btnTaskAttachAdd"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:text="@string/btn_task_attach_add" />
+
+         <ListView
+                android:id="@+id/lvTaskAttach"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+         </ListView>
+		 <LinearLayout
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:orientation="horizontal" >
+        
+	            <Button
+	                android:id="@+id/btnTaskPhotoAdd"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:text="@string/btn_task_photo_add" />
+			    <ImageView
+			        android:id="@+id/imageView1"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:layout_alignTop="@+id/btnTaskPhotoAdd"
+			        android:layout_toRightOf="@+id/btnTaskAttachAdd"
+			        android:src="@drawable/photo" />
+       </LinearLayout>
+       <ListView
+                android:id="@+id/lvTaskPhoto"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+       </ListView>
+	   <LinearLayout
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:orientation="horizontal" >
+
+		       <Button
+			        android:id="@+id/btnTaskSave"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:text="Save" />
+		       <Button
+			        android:id="@+id/btnTaskDelete"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:text="Delete" />
+        </LinearLayout>
+   </LinearLayout>
+</ScrollView>
+

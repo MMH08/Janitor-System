@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/btnNewCustomer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_master_customer" />
+
+    <Button
+        android:id="@+id/btnNewTenant"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_master_tenant" />
+
+    <Button
+        android:id="@+id/btnNewUser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_master_user" />
+
+    <Button
+        android:id="@+id/btnNewContract"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_master_contract" />
+
+    <Button
+        android:id="@+id/btnNewBuilding"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_new_building" />
+
+    <Button
+        android:id="@+id/btnNewTasktype"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_new_tasktype" />
+
+</LinearLayout>

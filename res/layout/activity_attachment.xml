@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/scrollView1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+    
+		    <EditText
+		        android:id="@+id/etInvoiceId"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:hint="@string/hnt_attachid"
+		        android:ems="10" >
+		
+		        <requestFocus />
+		    </EditText>
+		    <EditText
+		        android:id="@+id/etAttachName"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:ems="10"
+		        android:hint="@string/hnt_attach_name" />
+		
+		    <EditText
+		        android:id="@+id/etAttachNote"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:ems="10"
+		        android:hint="@string/hnt_attach_note"
+		        android:lines="4"
+		        android:gravity="top|left"
+		        android:inputType="textMultiLine" />
+
+		    <EditText
+		        android:id="@+id/etAttachmentCost"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:ems="10"
+		        android:inputType="numberDecimal"
+		        android:hint="@string/hnt_attach_cost" />
+
+		    <LinearLayout
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:orientation="horizontal" >          
+			    <Button
+			        android:id="@+id/btnAttachAddPhoto"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:gravity="center_horizontal"
+			        android:text="@string/add_photo" />
+			    
+			    <ImageView
+			        android:id="@+id/imageView1"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:src="@drawable/photo" />
+		    </LinearLayout>
+		    <ListView
+		        android:id="@+id/lvAttachPhoto"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        >
+		    </ListView>
+		    <LinearLayout
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:orientation="horizontal" >          
+		    
+			    <Button
+			        android:id="@+id/btnAttachSave"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:layout_marginTop="26dp"
+			        android:text="Save" />
+			    <Button
+			        android:id="@+id/btnAttachDelete"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:layout_marginTop="26dp"
+			        android:text="Delete" />
+			    		    
+		    </LinearLayout>
+		    
+</LinearLayout>
+</ScrollView>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <EditText
+        android:id="@+id/etPhotoId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hnt_photo_id"
+        android:ems="10" >
+
+        <requestFocus />
+    </EditText>
+
+    <TextView
+        android:id="@+id/txtTaskId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/etPhotoId"
+        android:layout_marginTop="28dp"
+        android:text="@string/txtTaskId" />
+
+    <Button
+        android:id="@+id/btnPhotoAttach"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/etPhotoId"
+        android:layout_marginTop="72dp"
+        android:text="@string/btnPhotoAttach" />
+
+    <ImageView
+        android:id="@+id/imgPhotoAdd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/btnPhotoAttach"
+        android:layout_toRightOf="@+id/btnPhotoAttach"
+        android:src="@drawable/abc_ab_bottom_solid_dark_holo" />
+
+</RelativeLayout>

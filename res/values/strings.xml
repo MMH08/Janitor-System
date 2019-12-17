@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Janitor System</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="new_task">New Task</string>
+    <string name="new_info">New Info</string>
+    <string name="btn_add">Save</string>
+    <string name="btn_search">Search</string>
+    <string name="add_photo">Add Photo</string>
+    <string name="hnt_taskheading">Touch to set task heading</string>
+    <string name="btn_task_attach_add">Add Attachment</string>
+    <string name="btn_task_photo_add">Add Photo</string>
+    <string name="btn_task_add">Start</string>
+    <string name="hnt_task_starttimestamp">Touch to set task start time stamp</string>
+    <string name="hnt_task_deadline">Touch to set task deadline</string>
+    <string name="hnt_task_Slip">Touch to set task slip</string>
+    <string name="hnt_task_Note">Touch to set task note</string>
+    <string name="hnt_photo_id">Touch to set photo id</string>
+    <string name="txtTaskId">Task Id</string>
+    <string name="btnPhotoAttach">Take a photo</string>
+    <string name="hnt_attachid"></string>
+    <string name="hnt_attach_name">Touch to set attachment name</string>
+    <string name="hnt_attach_note">Touch to set attachment note</string>
+    <string name="splash_screenname">Janitor System</string>
+    <string name="hnt_task_id">Touch to set task Id</string>
+    <string name="btn_settings">Settings</string>
+    <string name="btn_master">Master</string>
+    <string name="btn_new_building">New Building</string>
+    <string name="btn_new_tasktype">New Tasktype</string>
+    <string name="btn_master_customer">New Customer</string>
+    <string name="btn_master_tenant">New Tenant</string>
+    <string name="btn_master_user">New User</string>
+    <string name="btn_master_contract">New Contract</string>
+    <string name="main_name">Main</string>
+    <string name="task_name">Task Create</string>
+    <string name="info_name">Info</string>
+    <string name="login_name">Login</string>
+    <string name="task_update_name">Update Task</string>
+    <string name="attachment_name">Attachment Create</string>
+    <string name="attachment_update_name">Attachment Update</string>
+    <string name="infolist_name">Info List</string>
+    <string name="finishedtask_name">Finished Task</string>
+    <string name="hnt_attach_cost">Touch to set attachment cost</string>
+    <string name="hnt_autocom_search_building">Search Building</string>
+</resources>

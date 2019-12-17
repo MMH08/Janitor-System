@@ -1,0 +1,24 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.initvent.janitorsystem.MainActivity" >
+
+    <item android:id="@+id/settings" 
+         android:title="Settings" 
+         android:orderInCategory="3"
+         android:showAsAction="always" 
+        >
+    </item>
+    <item android:id="@+id/infolist" 
+         android:title="Info List" 
+         android:orderInCategory="3"
+         android:showAsAction="always" 
+        >
+    </item>
+    <item android:id="@+id/finishedTask" 
+         android:title="Finished task" 
+         android:orderInCategory="3"
+         android:showAsAction="always" 
+        >
+    </item>
+</menu>

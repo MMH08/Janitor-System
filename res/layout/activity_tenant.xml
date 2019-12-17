@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <EditText
+        android:id="@+id/ettenNane"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Touch to set Name"
+        android:ems="10" >
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/ettenPhonenumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Touch to set Phone number"
+        android:ems="10" />
+
+    <EditText
+        android:id="@+id/ettenEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Touch to set Email"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/ettenApartmentnumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Touch to set Apartment Number"
+        android:ems="10" />
+
+    <EditText
+        android:id="@+id/ettenAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Touch to set Address"
+        android:ems="10" />
+
+    <EditText
+        android:id="@+id/etBuildingid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Touch to set Building"
+        android:ems="10" />
+
+    <Button
+        android:id="@+id/btntenAdd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add Tenant" />
+
+</LinearLayout>
